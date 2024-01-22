@@ -25,7 +25,7 @@ let randomNum = Math.random()
 console.log(randomNum)
 let Nuum = Math.floor(Math.random() * 100)
 console.log(Nuum)
-//8
+//8 
 let randomNumber = Math.random()*50 + 50;
 console.log(randomNumber)
 //9
@@ -44,5 +44,5 @@ console.log('\t5\t1\t5\t25\t125')
 //12
 let originalSring = 'Vous ne pouvez pas terminer une phrase avec parce que parce que parce que c\'est une conjonction'
 let substringToRemove = 'parce que parce que parce que'
-let newString = originalSring.substr(0, originalSring.indexOf(substringToRemove))
+let newString = originalSring.substr(0, originalSring.indexOf(substringToRemove));
 console.log(newString)
