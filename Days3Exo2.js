@@ -80,7 +80,7 @@ if (calcul >= 18) {
 //14
 var age = prompt("Insère ton âge actuel")
 var ageInSecond = age*31536000
-alert("Tu as vécu"+ ageInSecond +"pendant secondes")
+alert("Tu as vécu pendant"+ ageInSecond +"secondes")
 //15
 var nowe = new Date()
 const years = nowe.getFullYear()
