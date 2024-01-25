@@ -1,0 +1,8 @@
+//1
+const maintenant = new Date()
+const annee = maintenant.getFullYear()
+const mois = maintenant.getMonth()
+const jours = maintenant.getDay()
+const heur = maintenant.getHours()
+const min = maintenant.getMinutes()
+console.log(`${annee}-${mois}-${jours} ${heur}:${min}`)
