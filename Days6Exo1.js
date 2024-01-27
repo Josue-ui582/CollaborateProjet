@@ -71,20 +71,19 @@ for (let i = 0; i < 5; i++) {
 }
 console.log(randomArray);
 
-// 15Développez un petit script qui génère un identifiant aléatoire à six caractères
+// 15 Développez un petit script qui génère un identifiant aléatoire à six caractères
 
 // Définir les caractères aléatoires possibles
 const characters  = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
-
 // stocker l'identifiant générer
-let randomId = ''
+let randomId = '';
 
 // Générer un identifiant de six caractères
 for(i = 0; i < 6; i++){
-    // obtenir unindex aléatoire
+    // obtenir un index aléatoire
     const randomIndex = Math.floor(Math.random() * characters.length)
 
-    // Ajouter le caractère correspondant à l'index au résultat
+    // Ajout du caractère correspondant à l'index au résultat
     randomId  += characters.charAt(randomIndex)
 }
 
