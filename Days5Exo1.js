@@ -1,4 +1,4 @@
-//1
+//1 
 const empty = Array()
 console.log(empty)
 //2
